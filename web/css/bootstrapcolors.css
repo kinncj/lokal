@@ -1,0 +1,88 @@
+@CHARSET "UTF-8";
+
+.navbar-inverse .navbar-inner,.navbar-inverse .nav .active>a,.navbar-inverse .nav .active>a:hover,.navbar-inverse .nav .active>a:focus
+	{
+	background-color: #D9D4D6;
+	background-image: -moz-linear-gradient(top, #D9D4D6, #ABABAB);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#D9D4D6),
+		to(#ABABAB) );
+	background-image: -webkit-linear-gradient(top, #D9D4D6, #ABABAB);
+	background-image: -o-linear-gradient(top, #D9D4D6, #ABABAB);
+	background-image: linear-gradient(to bottom, #D9D4D6, #ABABAB);
+	background-repeat: repeat-x;
+	border-color: #D9D4D6;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffD9D4D6',
+		endColorstr='#ffABABAB', GradientType=0 );
+}
+
+.navbar .brand {
+	color: #FFFFFF;
+	text-shadow: 0 1px 0 #D9D4D6;
+}
+
+.navbar-inverse .navbar-link,.navbar-inverse,.navbar-inverse .nav .active>a,.navbar-inverse .nav .active>a:hover,.navbar-inverse .nav .active>a:focus
+	{
+	color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-link:hover {
+	text-shadow: 1px 1px 0 #A8A8A8;
+	text-decoration: none;
+}
+
+.navbar-inverse .brand,.navbar-inverse .nav>li>a {
+	color: #FFFFFF;
+	text-shadow: 0 -1px 0 #ABABAB;
+}
+
+.nav-list>.active>a,.nav-list>.active>a:hover {
+	color: #FFFFFF;
+	text-shadow: 0 -1px 0 #A8A8A8;
+	background-color: #D9D4D6;
+}
+
+.btn-primary {
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #D9D4D6;
+	*background-color: #A8A8A8;
+	background-image: -moz-linear-gradient(top, #D9D4D6, #A8A8A8);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#D9D4D6),
+		to(#A8A8A8) );
+	background-image: -webkit-linear-gradient(top, #D9D4D6, #A8A8A8);
+	background-image: -o-linear-gradient(top, #D9D4D6, #A8A8A8);
+	background-image: linear-gradient(to bottom, #D9D4D6, #A8A8A8);
+	background-repeat: repeat-x;
+	border-color: #0044cc #0044cc #002a80;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffD9D4D6',
+		endColorstr='#ffA8A8A8', GradientType=0 );
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false );
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled]
+	{
+	color: #ffffff;
+	background-color: #A8A8A8;
+	*background-color: #A8A8A8;
+}
+
+.btn-primary:active,.btn-primary.active {
+	background-color: #A8A8A8 \9;
+}
+
+a {
+	color: #A8A8A8;
+}
+
+.brand {
+	font-family: 'Faster One', cursive;
+}
+
+.small {
+	font-size: 48px;
+}

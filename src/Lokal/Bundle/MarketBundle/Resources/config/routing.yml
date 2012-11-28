@@ -1,0 +1,6 @@
+market_homepage:
+    pattern:  /
+    defaults: { _controller: MarketBundle:Default:index }
+market_about:
+    pattern:  /about
+    defaults: { _controller: MarketBundle:Default:index }
